@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>电影 - 精选影评</title>
+  <meta name="description" content="发现最有深度的电影影评，记录电影的独特魅力和感悟。">
+  <!-- 网站图标 -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <!-- 预加载字体 -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/y-shi23/CDN/fonts/LXGWWenKaiMonoLite-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <!-- 样式表 -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <a href="index.html" class="logo-link">
+      <div class="logo">依<span>影</span></div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-item active">首页</a>
+      <a href="movies.html" class="nav-item">影评</a>
+      <a href="about.html" class="nav-item">关于</a>
+    </div>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- 首页轮播 -->
+  <div class="hero-slider">
+    <!-- 第一张幻灯片 -->
+    <div class="slide active">
+      <div class="slide-bg" style="background-image: url('assets/images/slide1.jpg');"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <h1 class="slide-title">《流浪地球2》</h1>
+        <p class="slide-desc">在太空与自然灾害的对抗中，人类将何去何从？这部震撼人心的科幻巨制给出了一个中国式的答案。</p>
+        <a href="review.html?id=wandering-earth-2" class="btn">阅读影评</a>
+      </div>
+    </div>
+
+    <!-- 第二张幻灯片 -->
+    <div class="slide">
+      <div class="slide-bg" style="background-image: url('assets/images/slide2.jpg');"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <h1 class="slide-title">《奥本海默》</h1>
+        <p class="slide-desc">诺兰以独特视角解构了"原子弹之父"的复杂内心世界，一场关于科学、道德与责任的视觉盛宴。</p>
+        <a href="review.html?id=oppenheimer" class="btn">阅读影评</a>
+      </div>
+    </div>
+
+    <!-- 第三张幻灯片 -->
+    <div class="slide">
+      <div class="slide-bg" style="background-image: url('assets/images/slide3.jpg');"></div>
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <h1 class="slide-title">《坂本龙一:CODA》</h1>
+        <p class="slide-desc">一部关于音乐大师生命与艺术的深刻记录片，探索了坂本龙一如何通过音符与世界对话。</p>
+        <a href="review.html?id=ryuichi-sakamoto-coda" class="btn">阅读影评</a>
+      </div>
+    </div>
+
+    <!-- 导航点 -->
+    <div class="slider-nav">
+      <div class="nav-dot active"></div>
+      <div class="nav-dot"></div>
+      <div class="nav-dot"></div>
+    </div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">电<span style="color: var(--accent-color);">影</span></div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="movies.html">影评</a>
+        <a href="about.html">关于</a>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+        </a>
+        <a href="#" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="#" class="social-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+          </svg>
+        </a>
+        <a href="mailto:y-shi23tsinghua@outlook.com" class="social-link" title="发送邮件">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <p class="copyright">© 2023 依影 - 保留所有权利</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html> 
