@@ -178,6 +178,12 @@ a {
 }
 
 .slide-content {
+  text-align: left;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 600px;
+}
   position: absolute;
   bottom: 20%;
   left: 5%;
@@ -674,4 +680,4 @@ a {
 .email-link:hover {
   color: #ff3d47;
   border-bottom-style: solid;
-} 
+}
