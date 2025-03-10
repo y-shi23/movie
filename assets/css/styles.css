@@ -625,6 +625,58 @@ a {
   }
 }
 
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+  .slide-content {
+    text-align: center !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    bottom: 100px !important;
+    padding: 0 20px;
+  }
+
+  .slide-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .slide-desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .slider-nav {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-title {
+    font-size: 2rem;
+  }
+  
+  .review-desc {
+    font-size: 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .review-content {
+    font-size: 1rem;
+  }
+  
+  .review-header {
+    height: 40vh;
+  }
+}
+
 /* 动画效果 */
 @keyframes fadeIn {
   from {
